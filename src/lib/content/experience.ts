@@ -5,7 +5,7 @@ export const experienceSection: ExperienceSectionType = {
     experiences: [
     {
         company: 'Freelance ',
-        companyUrl: '',
+        companyUrl: 'https://anirudhnbharadwaj.vercel.app/#experience',
         role: 'Computer Vision Consultant',
         started: 'Nov 2023',
         upto: 'present',
@@ -16,7 +16,7 @@ export const experienceSection: ExperienceSectionType = {
     },
     {
         company: 'Cyclops Medtech',
-        companyUrl: 'https://shmth.capital/',
+        companyUrl: 'https://www.cyclopsmedtech.com/',
         role: 'Computer Vision Engineer',
         started: 'june 2023',
         upto: 'nov 2023',
@@ -27,7 +27,7 @@ export const experienceSection: ExperienceSectionType = {
     },
     {
         company: 'Cyclops Medtech',
-        companyUrl: 'https://webnetic.vercel.app/',
+        companyUrl: 'https://www.cyclopsmedtech.com/',
         role: 'Data Science and Computer Vision - Research Intern',
         started: 'sept 2022',
         upto: 'june 2023',

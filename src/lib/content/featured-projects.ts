@@ -2,12 +2,12 @@ import { FeaturedProjectsSectionType } from '@/lib/types/sections';
 import { getId } from '@/lib/utils/helper';
 
 const featuredProjectsSection: FeaturedProjectsSectionType = {
-  title: "projects i've been working on",
+  title: "projects i've been working on lately",
   projects: [
     {
       id: getId(),
       name: 'vHIT',
-      description: 'velocity Head Impulase Test measures the vestibulo-ocular reflex (VOR), and is anatomically correlated to semicircular canal function in the peripheral vestibular system, motor nuclei in the brainstem, and extra-ocular muscles.',
+      description: 'Velocity Head Impulase Test measures the vestibulo-ocular reflex (VOR), and is anatomically correlated to semicircular canal function in the peripheral vestibular system, motor nuclei in the brainstem, and extra-ocular muscles.',
       tasks:
         'Research and Development of a vHIT system with remote camera for head and eye tracking',
       // url: 'https://www.integraleads.xyz/',
@@ -17,7 +17,7 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
     {
       id: getId(),
       name: 'VNG',
-      description: 'Video-Nystagmography test is a procedure used to evaluate and assess the functioning of the vestibular system, which is responsible for your balance, motion and spatial orientation.',
+      description: 'Video-Nystagmography is a procedure used to evaluate and assess the functioning of the vestibular system, which is responsible for your balance, motion and spatial orientation.',
       tasks:
         'Research and Development of a head mounted VNG system with head and eye tracking.',
       // url: 'https://www.uproposalgpt.com/',

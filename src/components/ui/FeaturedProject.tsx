@@ -66,7 +66,7 @@ const FeaturedProject = ({
           'absolute lg:top-1/2 lg:-translate-y-1/2 lg:right-0',
           'lg:h-auto left-0 lg:left-auto top-0 right-auto lg:bg-none lg:text-inherit',
           'flex flex-col justify-end',
-          'bg-gradient-to-t from-black/80 group-hover:from-accent group-focus:from-accent',
+          'bg-gradient-to-t from-black/50 group-hover:from-accent group-focus:from-accent',
           align === 'left' && 'lg:left-0'
         )}
       >
@@ -92,9 +92,14 @@ const FeaturedProject = ({
               align === 'right' && 'ml-auto'
             )}
           >
-            <p className="text-dark-1">{description}</p>
+            <h1 className=' mb-5 tracking-[0.2em] text-3xl text-dark-2'> 
+              {name}
+            </h1>
+            <p className="text-dark-1">
+              {description}
+            </p>
             <div className="text-xs hidden lg:block capitalize font-mono text-accent my-3 lg:my-2 lg:mt-3">
-              tasks / achievements
+              tasks / responsibilities
             </div>
             <div className="text-base hidden lg:block lg:text-sm">{tasks}</div>
           </div>

@@ -20,7 +20,7 @@ const About = () => {
 
   return domLoaded ? (
     <Wrapper id="about" {...getSectionAnimation}>
-      <h2 className="relative mb-10 uppercase tracking-[20px] text-3xl text-gray-300">{title}</h2>
+      <h2 className="relative mb-10 uppercase tracking-[20px] text-3xl">{title}</h2>
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
@@ -43,7 +43,7 @@ const About = () => {
           </p>
           <p>
 
-            At present, I am working as a freelance Computer Vision Consultant.
+            And now, I am working as a freelance Computer Vision Consultant.
 
           </p>
 
