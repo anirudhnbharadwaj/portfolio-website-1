@@ -15,7 +15,7 @@ export const socialLinks: StringKeyValueType = {
 };
 
 export const author = {
-  name: 'Anirudh N Bharadwaj',
+  name: 'Anirudh Bharadwaj',
   email: 'anirudhbharadawaj13@gmail.com',
 };
 
