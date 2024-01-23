@@ -24,32 +24,27 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hello there!! I'm Anirudh and I am a Computer Vision Engineer by profession. 
-            Also, I love building websites, hmmm.. call it a hobby XD
+            Greetings! I'm Anirudh, a passionate Computer Vision Engineer by profession. 
+            Also, I love building websites. Hmmm, call it a hobby XD
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at a 
-            start-up: {' '}
+            My journey began at Cyclops Medtech, 
+            evolving into a freelance Computer Vision Consultant.
             
-            <Link
+            {/* <Link
               href="https://www.cyclopsmedtech.com/"
               target="_blank"
               className="text-accent"
             >
               Cyclops Medtech
 
-            </Link>
-            .
-          </p>
-          <p>
-
-            And now, I am working as a freelance Computer Vision Consultant.
-
+            </Link> */}
           </p>
 
           <p>
-          With a strong foundation in my field of study, I am ready to embark on new challenges 
-          and create impactful solutions in the world of Vision.
+          Armed with a robust foundation, I'm poised to tackle fresh challenges and craft 
+          impactful solutions in the dynamic realm of Computer Vision and Image Processing. 
+          Ready to turn visions into reality! 🚀😊
           </p>
 
           {list && (
