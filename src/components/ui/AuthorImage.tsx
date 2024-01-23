@@ -4,7 +4,7 @@ type Props = { src: string; alt: string };
 
 const AuthorImage = ({ src, alt }: Props) => {
   return (
-    <div className="relative w-64 h-64 group sm:w-auto sm:h-auto">
+    <div className="relative mb-20 w-64 h-64 group sm:w-auto sm:h-auto">
       <Image
         src={src}
         alt={alt}

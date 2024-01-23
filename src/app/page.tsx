@@ -1,3 +1,4 @@
+"use client";
 import {
   About,
   Contact,
@@ -8,8 +9,8 @@ import {
   Projects,
   Skills,
 } from '@/containers';
-
 import type { NextPage } from 'next';
+import TerminalContainer from '@/components/terminal/TerminalContainer';
 
 /**
  * TODO: Create separate page for all the projects with filters (vercel | netlify | github api for automation)
@@ -18,11 +19,13 @@ import type { NextPage } from 'next';
  */
 
 const Home: NextPage = () => {
+  
   return (
     <>
       <Layout >
         <Hero />  
         <About />
+        <TerminalContainer />
         <Skills />
         <Experience />
         <FeaturedProjects />
