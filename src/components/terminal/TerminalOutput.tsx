@@ -7,9 +7,6 @@ import {
 import TerminalConfiguration from "../../assets/config/developer_data/terminalconfiguration";
 
 
-export type dangerouslySetInnerHTML = {
-  __html: string | string[];
-};
 
 type TerminalOutputProps = {
   command: string;
@@ -24,7 +21,7 @@ const TerminalOutput: FC<TerminalOutputProps> = ({ command, response }) => (
         <span style={{ color: "white", fontFamily:"'Calibri', sans-serif"}}>{command}</span>
       </TerminalUserName>
     </TerminalPrompt>
-    <TerminalOutputStyle dangerouslySetInnerHTML={{ __html: response }} />
+    <TerminalOutputStyle dangerouslySetInnerHTML={{ __html: Array.isArray(response) ? response.join('') : response }} />
   </div>
 );
 
