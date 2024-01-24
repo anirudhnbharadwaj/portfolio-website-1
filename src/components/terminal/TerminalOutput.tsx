@@ -7,7 +7,7 @@ import {
 import TerminalConfiguration from "../../assets/config/developer_data/terminalconfiguration";
 type TerminalOutputProps = {
   command: string;
-  response: string ;
+  response: string | string[];
 };
 const {terminal_username} = TerminalConfiguration;
 const TerminalOutput: FC<TerminalOutputProps> = ({ command, response }) => (

@@ -8,9 +8,10 @@ import { Colors } from "../../assets/styles/basetheme/theme";
 import { commands } from "./CommandUtility";
 import TerminalOutput from "./TerminalOutput";
 import TerminalConfiguration from "../../assets/config/developer_data/terminalconfiguration";
+
 type Command = {
   command: string;
-  response: string | string[];
+  response: string[] | string;
 };
 
 const customInputStyle = {
@@ -75,7 +76,7 @@ const TerminalLogic: FC = () => {
         <TerminalOutput
           key={index}
           command={item.command}
-          response={item.response}
+          response = {item.response}
           data-testid = "terminal-output"
         />
       ))}
