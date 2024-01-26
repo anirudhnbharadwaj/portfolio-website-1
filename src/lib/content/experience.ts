@@ -1,7 +1,7 @@
 import { ExperienceSectionType } from '@/lib/types/sections'
 
 export const experienceSection: ExperienceSectionType = {
-    title: "where i've worked",
+    title: "work experience",
     experiences: [
     {
         company: 'Freelance ',

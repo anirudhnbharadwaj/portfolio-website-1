@@ -19,7 +19,7 @@ const Projects = () => {
 
   return (
     <Wrapper animate={false} {...getSectionAnimation}>
-      <motion.h2 className="relative text-center mb-20 uppercase tracking-[20px] text-3xl ">
+      <motion.h2 className="relative text-center mb-20 uppercase tracking-[10px] text-3xl ">
         {title}
       </motion.h2>
       <div className="grid gap-6 grid-cols-auto-250 xs:grid-cols-auto-300 place-items-center">

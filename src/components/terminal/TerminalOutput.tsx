@@ -18,7 +18,7 @@ const TerminalOutput: FC<TerminalOutputProps> = ({ command, response }) => (
     <TerminalPrompt>
       <TerminalUserName>
         {terminal_username}{" "}
-        <span style={{ color: "white", fontFamily:"'Calibri', sans-serif"}}>{command}</span>
+        <span style={{ color: "white", fontFamily:"'Calibri', monospace", fontWeight: "600", fontSize: "1em"}}>{command}</span>
       </TerminalUserName>
     </TerminalPrompt>
     <TerminalOutputStyle dangerouslySetInnerHTML={{ __html: Array.isArray(response) ? response.join('') : response }} />

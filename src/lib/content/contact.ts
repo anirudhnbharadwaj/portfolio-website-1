@@ -2,7 +2,7 @@ import { author } from '@/lib/content/portfolio';
 import { ContactSectionType } from '@/lib/types/sections';
 
 export const contactSection: ContactSectionType = {
-    title: 'get in touch',
+    title: 'reach out',
     subtitle: "what's next",
     paragraphs: [
     'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',

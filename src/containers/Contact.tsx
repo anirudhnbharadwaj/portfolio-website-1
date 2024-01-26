@@ -15,7 +15,7 @@ const Contact = () => {
       <p className="mb-5 font-mono text-sm uppercase tracking-[10px] text-accent">
         {subtitle}
       </p>
-      <h2 className="relative mb-10 uppercase tracking-[20px] text-1xl">{title}</h2>
+      <h2 className="mb-7 uppercase tracking-[10px] text-1.5xl">{title}</h2>
 
       {paragraphs.map((paragraph, i) => (
         <p key={i}>{paragraph}</p>

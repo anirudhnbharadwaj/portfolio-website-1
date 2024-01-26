@@ -12,7 +12,7 @@ const Experience = () => {
       className="max-w-3xl py-32 mx-auto"
       {...getSectionAnimation}
     >
-      <h2 className="relative mb-20 uppercase tracking-[20px] text-3xl ">{experienceSection.title}</h2>
+      <h2 className="relative mb-20 uppercase tracking-[10px] text-3xl ">{experienceSection.title}</h2>
       <TabList experiences={experienceSection.experiences} />
     </motion.section>
   );

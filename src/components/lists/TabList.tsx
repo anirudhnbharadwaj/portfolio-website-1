@@ -56,9 +56,9 @@ const TabList = ({ experiences }: Props) => {
         <div className="space-y-1">
           <h3 className="text-lg font-medium capitalize text-dark-2">
             {role}{' '}
-            <Link href={companyUrl} target="_blank" className="text-accent">
+            {/* <Link href={companyUrl} target="_blank" className="text-accent">
               @{company}
-            </Link>
+            </Link> */}
           </h3>
           <p className="font-mono text-xs capitalize">
             <>
