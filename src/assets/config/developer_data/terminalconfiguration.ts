@@ -20,12 +20,19 @@ const TerminalConfiguration = {
     desc: "Visvesvaraya Technological University | 2019 - 2023",
     CGPA: "7.69 / 10",
   },
+  achievements: {
+    one: "Held Secretary position in Student Council for Department of Computer Science at Sri Ramakrishna Vidyashala Pre-University",
+    two: "'Smartness' General Award recipient for exceptional achievements at Sri Ramakrishna Vidyashala Pre-University",
+    three: "•Presented 'Detection of Upper Limb Movements in EEG Data' poster on Sep 30, 2021, at Sapthagiri College of Engineering event with IETE Bangalore",
+    four: "Presented 'SRDSS: Smart Regenerative Deceleration and Safety System Using IoT in EV' paper at INCET, IEEE, hosted by Jain College of Engineering, Belgaum.",
+  },
   help: {
     whoami: "Who am I?",
     experience: "Work Ex",
     education: "Educational background",
     skills: "What I know.",
     publications: "Papers published",
+    achievements: "What I have done",
     github: "Where I put my codes :P",
     LinkedIn: "Let's Connect :)",
     Contact: "Am an e-mail away!!",
@@ -33,15 +40,10 @@ const TerminalConfiguration = {
   },
   skills: {
     frontend: "Familiar with HTML, CSS, React, Material UI, Styled component",
-    // backend: ".Net Framework, Rest architecture, RabbitMQ",
-    // database: "SQL, MongoDB(familiar)",
     programming_languages: {
         proficient: "Python",
         familiar: "C++, JavaScript, TypeScript, C"
     },
-    // unit_testing: "TypeMock, Jest",
-    // version_control: "Git",
-    // Agile_tool: "JIRA, SCRUM",
     Tools: "VSCode, OpenCV, Linux, Gstreamer, Qt, Machine Vision(IDS), Algorithm Dev, Pandas, NumPy, SciPy, OpenVINO, MediaPipe",
   },
   publications: {

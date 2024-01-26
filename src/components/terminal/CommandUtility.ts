@@ -6,7 +6,7 @@ import {
   Publications,
   Github,
   Linkedin,
-
+  Achievements,
   Contact,
   Experience,
 } from "./commands/HelpUser";
@@ -22,6 +22,14 @@ export const commands: Record<string, string | string[]> = {
       <b style="color: #fc5b57">Course:</b> ${item.title} <br/>
       <b style="color: #fc5b57">College:</b> ${item.desc} <br/>
       <b style="color: #fc5b57">CGPA:</b> ${item.CGPA}
+    `
+  ),
+  achievements: Achievements.map(
+    (item) => `
+      <b style="color: #fc5b57">• </b>${item.one}<br/>
+      <b style="color: #fc5b57">• </b>${item.two}<br/>
+      <b style="color: #fc5b57">• </b>${item.three}<br/>
+      <b style="color: #fc5b57">• </b>${item.four}<br/>
     `
   ),
   
