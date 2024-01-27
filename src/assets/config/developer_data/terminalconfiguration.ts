@@ -21,9 +21,9 @@ const TerminalConfiguration = {
     CGPA: "7.69 / 10",
   },
   achievements: {
-    one: "Held Secretary position in Student Council for Department of Computer Science at Sri Ramakrishna Vidyashala Pre-University",
-    two: "'Smartness' General Award recipient for exceptional achievements at Sri Ramakrishna Vidyashala Pre-University",
-    three: "•Presented 'Detection of Upper Limb Movements in EEG Data' poster on Sep 30, 2021, at Sapthagiri College of Engineering event with IETE Bangalore",
+    one: "Held Secretary position in Student Council for Department of Computer Science at Sri Ramakrishna Vidyashala Pre-University.",
+    two: "'Smartness' General Award recipient for exceptional achievements at Sri Ramakrishna Vidyashala Pre-University.",
+    three: "Presented 'Detection of Upper Limb Movements in EEG Data' poster on Sep 30, 2021, at Sapthagiri College of Engineering event with IETE Bangalore.",
     four: "Presented 'SRDSS: Smart Regenerative Deceleration and Safety System Using IoT in EV' paper at INCET, IEEE, hosted by Jain College of Engineering, Belgaum.",
   },
   help: {
