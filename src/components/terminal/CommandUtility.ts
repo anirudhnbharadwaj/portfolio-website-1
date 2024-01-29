@@ -41,7 +41,7 @@ export const commands: Record<string, string | string[]> = {
       <b style="color: #fc5b57">education :</b> ${item.education} <br/>
       <b style="color: #fc5b57">skills :</b> ${item.skills} <br/>
       <b style="color: #fc5b57">publications :</b> ${item.publications} <br/>
-
+      <b style="color: #fc5b57">achievements :</b> ${item.achievements} <br/>
       <b style="color: #fc5b57">github :</b> ${item.github} <br/>
       <b style="color: #fc5b57">linkedin :</b> ${item.LinkedIn} <br/>
       <b style="color: #fc5b57">contact :</b> ${item.Contact} <br/>
