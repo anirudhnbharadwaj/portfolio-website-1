@@ -61,7 +61,8 @@
 
 
 ::selection {
-  background: var(--color-accent);
+  color: black;
+  background: var(--color-dark-3);
 }
 
 
@@ -72,7 +73,7 @@
 
 
 *::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 *::-webkit-scrollbar-track {
@@ -81,7 +82,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--color-dark-4);
+  background-color: var(--color-text);
   border-radius: 14px;
   border: 3px solid var(--color-dark-2);
 }
