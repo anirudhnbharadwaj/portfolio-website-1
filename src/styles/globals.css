@@ -77,10 +77,9 @@
   width: 10px;
 }
 
-/* *::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: var(--color-dark-2);
-  border-radius: 5px;
-} */
+}
 
 /* *::-webkit-scrollbar-thumb {
   background-color: var(--color-dark-4);
