@@ -21,7 +21,7 @@ export const commands: Record<string, string | string[]> = {
     (item) => `
       <b style="color: #fc5b57">Course:</b> ${item.title} <br/>
       <b style="color: #fc5b57">College:</b> ${item.desc} <br/>
-      <b style="color: #fc5b57">CGPA:</b> ${item.CGPA}
+      <b style="color: #fc5b57">CGPA:</b> ${item.CGPA}<br/>
       <b style="color: #fc5b57">WES Course-by-Course Evaluation:</b> ${item.WES}
     `
   ),
