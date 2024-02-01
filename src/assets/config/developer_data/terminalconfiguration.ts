@@ -19,6 +19,7 @@ const TerminalConfiguration = {
     title: "Bachelor of Engineering - Electronics and Communication",
     desc: "Visvesvaraya Technological University | 2019 - 2023",
     CGPA: "7.69 / 10",
+    WES : "3.5/4.0",
   },
   achievements: {
     one: "Held Secretary position in Student Council for Department of Computer Science at Sri Ramakrishna Vidyashala Pre-University.",
