@@ -27,24 +27,12 @@ const About = () => {
             Greetings! I'm Anirudh, a passionate Computer Vision Engineer by profession. 
             Also, I love building websites. Hmmm, call it a hobby XD
           </p>
-          <p>
-            My journey began at Cyclops Medtech, 
-            evolving into a freelance Computer Vision Consultant.
-            
-            {/* <Link
-              href="https://www.cyclopsmedtech.com/"
-              target="_blank"
-              className="text-accent"
-            >
-              Cyclops Medtech
-
-            </Link> */}
-          </p>
 
           <p>
-          Armed with a robust foundation, I'm poised to tackle fresh challenges and craft 
-          impactful solutions in the dynamic realm of Computer Vision and Image Processing. 
-          Ready to turn visions into reality! 🚀😊
+          My professional journey started at Cyclops Medtech, where I honed my skills and passion for Computer Vision. 
+          Transitioning into a freelance Computer Vision Consultant, I've embraced diverse challenges and developed 
+          a strong foundation. Now, armed with this experience, I'm poised to tackle fresh challenges and craft impactful 
+          solutions in the dynamic realm of Computer Vision and Image Processing. Ready to turn visions into reality! 🚀😊
           </p>
 
           {list && (
