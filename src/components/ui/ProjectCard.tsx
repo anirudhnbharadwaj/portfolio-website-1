@@ -32,7 +32,7 @@ const ProjectCard = ({
         //   if ((e.target as HTMLElement).closest('a')) return;
         //   window.open(url);
         // }}
-        className="block w-full overflow-hidden transition-all duration-200 rounded-md shadow-xl group bg-bg-secondary dark:shadow-2xl"
+        className="block h-[350px] w-full overflow-hidden transition-all duration-200 rounded-md shadow-xl group bg-bg-secondary dark:shadow-2xl"
       >
         {/* <div className="overflow-hidden h-[200px]">
           <Image
