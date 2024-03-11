@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <Wrapper
       id="contact"
-      className="max-w-xl mx-auto text-center  !py-16 md:!py-24 mb-20 md:mb-32"
+      className="max-w-xl mx-auto text-center py-16 md:py-24 mb-20 md:mb-32 min-h-[70vh] flex flex-col justify-center"
       {...getSectionAnimation}
     >
       <p className="mb-5 font-mono text-sm uppercase tracking-[10px] text-accent">

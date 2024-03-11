@@ -32,7 +32,7 @@ const TabList = ({ experiences }: Props) => {
   return (
     <div className="flex flex-col sm:flex-row text-sm md:text-base gap-6 md:gap-10 min-h-[250px]">
       {/* Sidebar */}
-      <div className="font-mono text-xs sm:text-sm relative flex justify-start sm:flex-col overflow-scroll sm:overflow-auto sm:min-w-[180px]">
+      <div className="font-mono text-xs sm:text-sm relative flex justify-start sm:flex-col overflow-auto sm:overflow-auto sm:min-w-[180px]">
         {experiences.map(({ company }, i) => (
           <button
             key={getId()}
