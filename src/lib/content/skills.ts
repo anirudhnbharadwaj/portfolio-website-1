@@ -46,10 +46,10 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/designing-dark.json',
         },
         points: [
-        'Develop algorithms for image processing to enhance and manipulate visual data.',
-        'Develop and optimize computer vision algorithms for accurate and robust eye tracking and head tracking.',
-        'Continuously explore and adopt state-of-the-art techniques in computer vision to enhance the capabilities and accuracy of tracking.',
-        'Analyze and interpret visual data to extract meaningful insights.',
+        'Develop algorithms for image processing to enhance and manipulate visual data effectively.',
+        'Design and optimize computer vision algorithms for precise and robust eye and head tracking applications.',
+        'Continuously explore and adopt state-of-the-art techniques in computer vision to improve tracking capabilities and accuracy.',
+        'Analyze and interpret visual data to extract meaningful insights and drive impactful solutions.',
         ],
         softwareSkills: [
         { name: 'VS Code', icon: 'devicon:vscode' },
@@ -75,9 +75,9 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
         },
         points: [
-        'I pursue front-end web dev as a hobby and am a BEGINNER. I am currently learning Next.js, TypeScript and Tailwind CSS',
-        'Building responsive static websites using Next.js.',
-        'Styling pages Tailwind CSS.',
+        'I enjoy front-end web development as a hobby and am currently a BEGINNER exploring the world of web technologies.',
+        'Currently learning Next.js, TypeScript, and Tailwind CSS to build dynamic and responsive static websites..',
+        'Creating visually appealing and responsive pages with Tailwind CSS for a seamless user experience.',
         ],
         softwareSkills: [
           // iconify icons: https://icon-sets.iconify.design/
