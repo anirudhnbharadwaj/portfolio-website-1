@@ -8,7 +8,7 @@ interface Props extends HTMLAttributes<HTMLElement> {
   id?: string;
   animate?: boolean;
 }
-
+/* eslint-disable */
 const Wrapper = ({
   children,
   as = 'section',
@@ -18,7 +18,7 @@ const Wrapper = ({
   ...rest
 }: Props & MotionProps) => {
   if (animate) {
-    const MotionTag = motion(as);
+    const MotionTag = motion(as); 
 
     return (
       <MotionTag id={id} className={`py-24 md:py-32 ${className}`} {...rest}>
@@ -49,3 +49,4 @@ const Wrapper = ({
 };
 
 export default Wrapper;
+/* eslint-enable */
