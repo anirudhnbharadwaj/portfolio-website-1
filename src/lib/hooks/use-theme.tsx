@@ -17,7 +17,7 @@ interface ThemeContextType {
 
 // Initial state for the context
 const initialState: ThemeContextType = {
-  isDarkMode: true, // Default to true for dark mode
+  isDarkMode: true,
   toggle: () => {},
   enableDarkMode: () => {},
   disableDarkMode: () => {},
@@ -31,14 +31,12 @@ export default function ThemeProvider({
 }: {
   children: React.ReactNode;
 }) {
-  // Initialize state based on localStorage or default to true for dark mode
+  // Initialize state based on localStorage
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
-    // Check if in the browser and read from localStorage
     if (typeof window !== 'undefined') {
-      const storedPreference = localStorage.getItem('darkMode');
-      return storedPreference ? JSON.parse(storedPreference) : true; // Default to true if no preference is set
+      return JSON.parse(localStorage.getItem('darkMode') || 'false');
     }
-    return true; // Default to true on the server
+    return false; // Default to light mode if window is undefined
   });
 
   // Toggle function to switch modes
