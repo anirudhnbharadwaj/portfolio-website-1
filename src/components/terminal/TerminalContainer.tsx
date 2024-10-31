@@ -8,8 +8,11 @@ import TermNav from "./TermNav";
 import TerminalLogic from "./TerminalLogic";
 import Wrapper from "../ui/Wrapper";
 import { getSectionAnimation } from '@/styles/animations';
+import { useTheme } from "@/lib/hooks/use-theme";
+import { Colors } from "../../assets/styles/basetheme/theme";
 
 const TerminalContainer: FC = () => {
+  const {isDarkMode, toggle} = useTheme();
   return (
     <Wrapper id = "terminal" {...getSectionAnimation}>
       <div className="top-100">
@@ -21,7 +24,11 @@ const TerminalContainer: FC = () => {
         </h4>
         
       <ContainerDiv>
-        <TermContainer>
+        <TermContainer
+          style={{  backgroundColor: isDarkMode ? Colors.terminalBackgroundColorDark : Colors.terminalBackgroundColorLight,
+                    border: isDarkMode ? "1px solid #64748b" : "1px solid #64748b"
+           }}
+          >
           <TermNav />
           <TerminalLogic />
         </TermContainer>

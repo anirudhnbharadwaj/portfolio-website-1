@@ -2,6 +2,12 @@ import { styled } from "@mui/material/styles";
 import { Box } from "@mui/system";
 import { Colors } from "../basetheme/theme";
 import { Typography } from "@mui/material";
+import { useTheme } from "@/lib/hooks/use-theme";
+
+export const CheckDark = () => {
+  const isDarkMode = useTheme()
+  return  isDarkMode ;
+};
 
 export const ContainerDiv = styled(Box)(() => ({
   display: "flex",
@@ -15,7 +21,7 @@ export const ContainerDiv = styled(Box)(() => ({
 export const TermContainer = styled(Box)(({ theme }) => ({
   width: "80%",
   height: "45vh",
-  background: Colors.terminalBackgroundColor,
+  // background: CheckDark().isDarkMode ? Colors.terminalBackgroundColorD : Colors.terminalBackgroundColorLight, // Update based on dark mode
   borderRadius: "2%",
   overflowY: "auto",
   overflowX: "hidden",
@@ -33,7 +39,7 @@ export const NavInsideContainer = styled(Box)(({ theme }) => ({
   position: "sticky",  
   top: 0, 
   height: "2.3em",
-  background: Colors.navBackgroundColor,
+  // background: Colors.navBackgroundColorDark, 
   display: "flex",
   justifyContent: "space-between",
   flexWrap: "wrap",
