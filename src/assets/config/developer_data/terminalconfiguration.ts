@@ -4,22 +4,23 @@ const TerminalConfiguration = {
   whoami: {
     name: "Anirudh N Bharadwaj",
     profession: "Computer Vision Engineer ",
-    company: "Freelancer | Bangalore",
+    company: "Equidor Medtech LLP | Bangalore",
   },
   experience: {
-    freelance: "Freelance | Hybrid",
-    role: "Computer Vision Consultant (Nov-2023 | Present)",
+    Equidor_CV_Engineer: "Equidor Medtech LLP | Onsite",
+    Equidor_CV_Engineer_role: "Computer Vision Engineer (Jan-2024 | Present)",
     
-    cyclops: "Cyclops Medtech | On-Site",
-    cyclops_role: "Computer Vision Engineer (Jun-2023 | Nov-2023)",
-    cyclops_internship: "Data Science and Image Processing - Research Intern (Sep 2023 - May 2023)"
+    Equidor_CV_Consultant: "Equidor Medtech | Hybrid",
+    Equidor_CV_Consultant_role: "Computer Vision Engineer (Jun-2023 | Jan-2024)",
+
+    cyclops_internship: "Artificial Intelligence - Research Intern (Sep 2023 - May 2023)"
     
   },
   education: {
     title: "Bachelor of Engineering - Electronics and Communication",
     desc: "Visvesvaraya Technological University | 2019 - 2023",
     CGPA: "7.69 / 10.0",
-    WES : "3.5 / 4.0",
+    WES : "3.5 / 4.0 GPA",
   },
   achievements: {
     one: "Held Secretary position in Student Council for Department of Computer Science at Sri Ramakrishna Vidyashala Pre-University.",

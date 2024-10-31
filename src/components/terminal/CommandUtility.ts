@@ -93,11 +93,12 @@ export const commands: Record<string, string | string[]> = {
 
   experience: Experience.map(
     (item) => `
-      <b style="color: #fc5b57">${item.freelance}</b> <br/>
-      ${item.role} <br/>
+      <b style="color: #fc5b57">${item.Equidor_CV_Engineer}</b> <br/>
+      ${item.Equidor_CV_Engineer_role} <br/>
 
-      <b style="color: #fc5b57">${item.cyclops}</b> <br/>
-      ${item.cyclops_role} <br/>
+      <b style="color: #fc5b57">${item.Equidor_CV_Consultant}</b> <br/>
+      ${item.Equidor_CV_Consultant_role} <br/>
+
       ${item.cyclops_internship} <br/>
     `
   ),
