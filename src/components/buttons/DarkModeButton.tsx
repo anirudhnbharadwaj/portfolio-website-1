@@ -1,6 +1,5 @@
 'use client';
 import { useTheme } from '@/lib/hooks/use-theme';
-
 import { Icon } from '@iconify/react';
 import { motion, MotionProps } from 'framer-motion';
 
@@ -16,8 +15,10 @@ const DarkModeButton = ({
   const { isDarkMode, toggle } = useTheme();
 
   const clickHandler = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    onClick && onClick(e);
-    toggle();
+    if (onClick) {
+      onClick(e);  // Explicit function call
+    }
+    toggle();  // Toggle the theme
   };
 
   return (
