@@ -129,7 +129,7 @@ export const TerminalOutput = styled(Typography)(({theme})=>({
   fontSize: "0.9em",
    fontWeight: "500",
    marginLeft: "1.6em",
-   color: "white",
+  //  color: "white",
    fontFamily: "'Trebuchet MS', sans-serif",
    [theme.breakpoints.down("sm")]: {
     fontSize: "0.8em",

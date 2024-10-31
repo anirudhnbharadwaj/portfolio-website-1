@@ -13,7 +13,8 @@ const TerminalConfiguration = {
     Equidor_CV_Consultant: "Equidor Medtech | Hybrid",
     Equidor_CV_Consultant_role: "Computer Vision Engineer (Jun-2023 | Jan-2024)",
 
-    cyclops_internship: "Artificial Intelligence - Research Intern (Sep 2023 - May 2023)"
+    cyclops_internship: "Cyclops Medtech Pvt. Ltd. | Hybrid",
+    cyclops_internship_role: "Artificial Intelligence - Research Intern (Sep 2023 - May 2023)"
     
   },
   education: {
@@ -27,14 +28,15 @@ const TerminalConfiguration = {
     two: "'Smartness' General Award recipient for exceptional achievements at Sri Ramakrishna Vidyashala Pre-University.",
     three: "Presented 'Detection of Upper Limb Movements in EEG Data' poster on Sep 30, 2021, at Sapthagiri College of Engineering event with IETE Bangalore.",
     four: "Presented 'SRDSS: Smart Regenerative Deceleration and Safety System Using IoT in EV' paper at INCET, IEEE, hosted by Jain College of Engineering, Belgaum.",
+    five: "Awarded for Contributions to Certificate Course in Assessment and Rehabilitation of Vertigo and Balance Disorders, Department of Otorhinolaryngology - Head & Neck Surgery, Yenepoya Medical College(Deemed to be University), Mangaluru, India.",
   },
   help: {
     whoami: "Who am I?",
-    experience: "Work Ex",
+    experience: "Work Exp",
     education: "Educational background",
     skills: "What I know.",
-    publications: "Papers published",
-    achievements: "What I have done",
+    publications: "Research Papers!",
+    achievements: "What I have done.",
     github: "Where I put my codes :P",
     LinkedIn: "Let's Connect :)",
     Contact: "Am an e-mail away!!",
@@ -46,7 +48,7 @@ const TerminalConfiguration = {
         proficient: "Python",
         familiar: "C++, JavaScript, TypeScript, C"
     },
-    Tools: "VSCode, OpenCV, Linux, Gstreamer, Qt, Machine Vision(IDS), Algorithm Dev, Pandas, NumPy, SciPy, OpenVINO, MediaPipe",
+    Tools: "VSCode, OpenCV, Gstreamer, Qt, PyTorch,  Machine Vision(IDS), Problem Solving, Algorithm Dev, Pandas, NumPy, SciPy, YOLO, Archlinux",
   },
   publications: {
     image_caption: "SRDSS:Smart Regenerative Deceleration and Safety System using IoT in ElectricVehicle",
