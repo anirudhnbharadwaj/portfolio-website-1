@@ -9,7 +9,7 @@ import {
 
 // Define the context state interface
 interface ThemeContextType {
-  isDarkMode: boolean;
+  isDarkMode: boolean | undefined; // Allow isDarkMode to be undefined
   toggle: () => void;
   enableDarkMode: () => void;
   disableDarkMode: () => void;
@@ -17,7 +17,7 @@ interface ThemeContextType {
 
 // Initial state for the context
 const initialState: ThemeContextType = {
-  isDarkMode: true,
+  isDarkMode: undefined, // Set initial state to undefined
   toggle: () => {},
   enableDarkMode: () => {},
   disableDarkMode: () => {},
@@ -31,36 +31,51 @@ export default function ThemeProvider({
 }: {
   children: React.ReactNode;
 }) {
-  // Initialize state based on localStorage
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
+  // Initialize state based on localStorage or system preference
+  const [isDarkMode, setIsDarkMode] = useState<boolean | undefined>(undefined); // Start as undefined
+
+  useEffect(() => {
     if (typeof window !== 'undefined') {
-      return JSON.parse(localStorage.getItem('darkMode') || 'false');
+      const storedPreference = localStorage.getItem('darkMode');
+      // If there's a stored preference, set isDarkMode; otherwise, check system preference
+      if (storedPreference) {
+        setIsDarkMode(JSON.parse(storedPreference));
+      } else {
+        // Fallback to system preference
+        setIsDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
+      }
     }
-    return false; // Default to light mode if window is undefined
-  });
+  }, []);
 
   // Toggle function to switch modes
   const toggle = useCallback(() => {
-    setIsDarkMode((prev) => !prev);
+    setIsDarkMode((prev) => {
+      const newMode = !prev;
+      localStorage.setItem('darkMode', JSON.stringify(newMode)); // Save new preference
+      return newMode;
+    });
   }, []);
 
   // Function to enable dark mode
   const enableDarkMode = useCallback(() => {
     setIsDarkMode(true);
+    localStorage.setItem('darkMode', 'true'); // Save preference
   }, []);
 
   // Function to disable dark mode
   const disableDarkMode = useCallback(() => {
     setIsDarkMode(false);
+    localStorage.setItem('darkMode', 'false'); // Save preference
   }, []);
 
-  // Effect to synchronize localStorage and document class
+  // Effect to synchronize document class based on isDarkMode state
   useEffect(() => {
-    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
+    if (isDarkMode !== undefined) {
+      if (isDarkMode) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
     }
   }, [isDarkMode]);
 

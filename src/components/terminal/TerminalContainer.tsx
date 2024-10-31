@@ -25,7 +25,7 @@ const TerminalContainer: FC = () => {
         
       <ContainerDiv>
         <TermContainer
-          style={{  backgroundColor: isDarkMode ? Colors.terminalBackgroundColorDark : Colors.terminalBackgroundColorLight,
+          style={{  backgroundColor: isDarkMode===undefined ? Colors.terminalBackgroundColorLight : isDarkMode ? Colors.terminalBackgroundColorDark : Colors.terminalBackgroundColorLight,
                     border: isDarkMode ? "1px solid #64748b" : "1px solid #64748b"
            }}
           >

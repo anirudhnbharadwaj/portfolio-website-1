@@ -20,7 +20,7 @@ export default function TermNav() {
   return (
     
     <NavInsideContainer
-    style={{  background: isDarkMode ? Colors.navBackgroundColorDark : Colors.navBackgroundColorLight,}}
+    style={{  background: isDarkMode===undefined ? Colors.navBackgroundColorDark : isDarkMode ? Colors.navBackgroundColorDark : Colors.navBackgroundColorLight,}}
     >
       <DotsInsideContainer>
         <OrangeDot />
