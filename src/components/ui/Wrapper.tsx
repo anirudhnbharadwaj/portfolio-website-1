@@ -1,5 +1,5 @@
 import { motion, MotionProps } from 'framer-motion';
-import { ElementType, HTMLAttributes, ReactNode, forwardRef } from 'react';
+import { ElementType, HTMLAttributes, ReactNode } from 'react';
 
 interface Props extends HTMLAttributes<HTMLElement> {
   as?: ElementType;
@@ -9,23 +9,45 @@ interface Props extends HTMLAttributes<HTMLElement> {
   animate?: boolean;
 }
 
-const Wrapper = forwardRef<HTMLElement, Props & MotionProps>(({
+const Wrapper = ({
   children,
   as = 'section',
   className = '',
   id = '',
   animate = true,
   ...rest
-}, ref) => {
-  const MotionTag = animate ? motion[as as keyof typeof motion] : motion.section;
-
-  return (
+}: Props & MotionProps) => {
+  if (animate) {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    <MotionTag ref={ref} id={id} className={`py-24 md:py-32 ${className}`} {...rest}>
+    const MotionTag = motion(as);
+
+    return (
+      <MotionTag id={id} className={`py-24 md:py-32 ${className}`} {...rest}>
+        {children}
+      </MotionTag>
+    );
+  }
+
+  if (as === 'section') {
+    return (
+      <motion.section
+        id={id}
+        className={`py-24 md:py-32 ${className}`}
+        {...rest}
+      >
+        {children}
+      </motion.section>
+    );
+  }
+
+  const CustomTag = `${as}` as ElementType;
+
+  return (
+    <CustomTag id={id} className={`py-24 md:py-32 ${className}`} {...rest}>
       {children}
-    </MotionTag>
+    </CustomTag>
   );
-});
+};
 
 export default Wrapper;
