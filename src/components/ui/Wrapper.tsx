@@ -17,9 +17,10 @@ const Wrapper = ({
   animate = true,
   ...rest
 }: Props & MotionProps) => {
-  if (animate) {
-    const MotionTag = motion(as);
+  // If `as` is a valid element type for motion, use it directly
+  const MotionTag = animate ? motion[as as keyof typeof motion] : undefined;
 
+  if (MotionTag) {
     return (
       <MotionTag id={id} className={`py-24 md:py-32 ${className}`} {...rest}>
         {children}
