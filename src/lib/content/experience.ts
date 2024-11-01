@@ -21,7 +21,7 @@ export const experienceSection: ExperienceSectionType = {
         ],
     },
     {
-        company: 'Equidor Medtech LLP',
+        company: 'Equidor Medtech',
         companyUrl: 'https://anirudhnbharadwaj.vercel.app/#experience',
         role: 'Computer Vision Consultant',
         started: 'june 2023',
@@ -37,7 +37,7 @@ export const experienceSection: ExperienceSectionType = {
         companyUrl: 'https://www.cyclopsmedtech.com/',
         role: 'Artificial Intelligence - Research Intern',
         started: 'sept 2022',
-        upto: 'june 2023',
+        upto: 'may 2023',
         tasks: [
         'Analyzed real-time ocular movement dataset to improve accuracy of computer vision algorithms.',
         'Developed proficiency in utilizing tools such as Pandas, NumPy, and OpenCV for data analysis and image processing.',
