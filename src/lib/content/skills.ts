@@ -42,8 +42,8 @@ export const skillsSection: SkillsSectionType = {
         id: getId(),
         title: 'Computer Vision & Image Processing',
         lottie: {
-        light: '/lotties/designing.json',
-        dark: '/lotties/designing-dark.json',
+        light: '/lotties/artificial_int.json',
+        dark: '/lotties/artificial_int.json',
         },
         points: [
         'Develop algorithms for image processing to enhance and manipulate visual data effectively.',
