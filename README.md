@@ -5,19 +5,7 @@
   A portfolio website i.e. <a href="https://anirudhnbharadwaj.vercel.app" target="_blank">Anirudh N Bharadwaj</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
-<!-- <p align="center">
-  <a href="https://choosealicense.com/licenses/mit/">
-    <img src="https://img.shields.io/badge/License-MIT-brightgreen"/ >
-  </a>
-  <img src="https://img.shields.io/badge/Version-2.0.0-blue"/ >
-</p>
-
-<br> -->
-
- [![My Portfolio](https://github.com/user-attachments/assets/e4a11301-5c03-43f6-a8e3-a663b4baeca3)](https://vatsalsinghkv.vercel.app/) 
-
-
-
+ [![My Portfolio](https://github.com/user-attachments/assets/e4a11301-5c03-43f6-a8e3-a663b4baeca3)](https://anirudhnbharadwaj.vercel.app/) 
 
 ## Table of Contents
 
