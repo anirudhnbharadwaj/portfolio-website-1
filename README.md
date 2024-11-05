@@ -1,5 +1,5 @@
 <h1 align="center">
-  anirudhnbharadwaj.vercel.io
+  anirudhnbharadwaj.vercel.app
 </h1>
 <p align="center">
   A portfolio website i.e. <a href="https://anirudhnbharadwaj.vercel.app" target="_blank">Anirudh N Bharadwaj</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
@@ -73,7 +73,7 @@
 
 - To change the theme, edit `src/styles/globals.css`
 
-## Contact
+<!-- ## Contact
 
 - Discord - [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA)
 - Website - [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app)
@@ -81,7 +81,7 @@
 - LinkedIn - [@vatsalsinghkv](https://www.linkedin.com/in/vatsalsinghkv/)
 - Twitter - [@vatsalsinghkv](https://www.twitter.com/vatsalsinghkv)
 - Instagram - [@vatsalsinghkv](https://www.instagram.com/vatsalsinghkv)
-- Facebook - [@vatsalsinghkv](https://www.facebook.com/vatsal.singh.kv) -->
+- Facebook - [@vatsalsinghkv](https://www.facebook.com/vatsal.singh.kv) --> -->
 
 ## Acknowledgements
 
@@ -94,8 +94,8 @@
 - Well, it's a good thing to give credits to creators, almost all the content templates were 'stolen' (not really) from [Vatsal Singh](https://github.com/vatsalsinghkv), a big THANK YOU!
 
 
- ## Show Your Support 
+## Show Your Support 
 
 Give a ⭐️ if you liked this project!
 
-<!-- [Scroll to Top](#--vatsalsinghkvvercelapp) --> -->
+[Scroll to Top](#--anirudhnbharadwajvercelapp)
