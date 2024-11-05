@@ -1,5 +1,5 @@
 <h1 align="center">
-  vatsalsinghkv.vercel.app
+  anirudhnbharadwaj.vercel.io
 </h1>
 <p align="center">
   A portfolio website i.e. <a href="https://anirudhnbharadwaj.vercel.app" target="_blank">Anirudh N Bharadwaj</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
@@ -14,7 +14,9 @@
 
 <br> -->
 
-<!-- [![My Portfolio](https://user-images.githubusercontent.com/68834718/214532356-7c56cdbd-0136-4d24-a532-d27e160ae72d.png)](https://vatsalsinghkv.vercel.app/) -->
+ [![My Portfolio](![image](https://github.com/user-attachments/assets/e4a11301-5c03-43f6-a8e3-a663b4baeca3))](https://anirudhnbharadwaj.vercel.app/) 
+
+
 
 ## Table of Contents
 
